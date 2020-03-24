@@ -1,0 +1,29 @@
+ denotes a set called the key space. Any element of  is called a key.
+
+Each element  uniquely determines a bijection from  to , denoted by . The  is called an encryption function. Similarly for each , we have a bijection from  to , denoted by , and it is called a decryption function.
+
+For example, consider the same shifting function that we dealt with in the previous challenge. Now, suppose the amount of shifting we do is some . In the last challenge, . Then  is a valid key representing the bijective function .
+
+For this task, consider a message that consists of decimal digits and a key, , which operates by shifting each digit by  places. Find the corresponding ciphertext.
+
+Constraints
+
+
+
+Input Format
+
+The input consists of  lines.
+The first line contains the message string.
+The second line contains the key .
+
+Output Format
+
+Output a single line that contains the cipher obtained by shifting each digit  places.
+
+Sample Input
+
+391
+2
+Sample Output
+
+513
